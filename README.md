@@ -59,9 +59,9 @@ Tech stack:
 └───requirements.txt
 ```
 
- - Link to Folder: [pipelines](https://github.com/DoThNg/ZenML_experiment/tree/main/pipelines)  
- - Link to Folder: [steps](https://github.com/DoThNg/ZenML_experiment/tree/main/steps)
- - Link to Folder: [utils](https://github.com/DoThNg/ZenML_experiment/tree/main/utils)
+   - Link to Folder: [pipelines](https://github.com/DoThNg/ZenML_experiment/tree/main/pipelines)  
+   - Link to Folder: [steps](https://github.com/DoThNg/ZenML_experiment/tree/main/steps)
+   - Link to Folder: [utils](https://github.com/DoThNg/ZenML_experiment/tree/main/utils)
 
 **Step 2:** Install ZenML: In this experiment, the ZenML version is 0.53.1, for details to install ZenML, refer to this [installation instruction](https://docs.zenml.io/getting-started/installation). 
 
