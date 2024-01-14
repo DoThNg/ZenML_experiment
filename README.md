@@ -18,7 +18,7 @@ The ML training pipeline includes the following steps:
 - **Step 5**: Evaluate the ML model
 - **Step 6**: If the model performance (metrics) meets the certain criteria, promote this model (register the ML model) to 'production' stage for a deployment.
 
-The above steps in the ML pipeline will be developed locally using ZenML - MLOps framework while model is trained using scikit-learn. Additionally, Experiments are tracked and models are registered by Mlflow. Further info on ZenML can be found in the following: https://docs.zenml.io/getting-started/introduction
+The above steps in the ML pipeline will be developed locally using ZenML - MLOps framework while model is trained using scikit-learn. Additionally, Experiments are tracked and models are registered by MLflow. Further info on ZenML can be found in the following: https://docs.zenml.io/getting-started/introduction
 
 The dataset used in this practice is TLC Trip Record Data for green taxi, which already went through a ETL process in this [data engineering experiment](https://github.com/DoThNg/Data-Engineering-Projects/tree/main/4_ETL_Dagster).
 
@@ -30,7 +30,7 @@ Tech stack:
 - Python 3.10
 - PostgreSQL 10
 - ZenML (0.53.1)
-- Mlflow (2.9.2)
+- MLflow (2.9.2)
 
 ---
 ### Overview of ML training pipeline in this experiment:
@@ -70,8 +70,8 @@ Tech stack:
 - Store credentials to create a database connection in a `.env` file (Reference: [env_template.env](https://github.com/DoThNg/ZenML_experiment/blob/main/env_template.env)) and save this file in folder where the virtual env is created.
 
 **Step 4:** Set up a MLOps stack used in this experiment
-- In this experiment, Mlflow is used for experiment tracking and model registry
-- To register Mlflow to the MLOps stack, run the following:
+- In this experiment, MLflow is used for experiment tracking and model registry
+- To register MLflow to the MLOps stack, run the following:
 
 ```
 zenml integration install mlflow -y
