@@ -6,7 +6,7 @@ This experiment focuses on developing a Machine Learning (ML) pipeline using **Z
 
 This MLOps experiment targets to build the following pipelines:
 
-- [x] ML training pipeline 
+- [:heavy_check_mark:] ML training pipeline 
 - [ ] ML deployment pipeline (to-do)
 - [ ] ML inference pipeline (to-do)
 
