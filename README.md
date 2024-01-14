@@ -6,9 +6,9 @@ This experiment focuses on developing a Machine Learning (ML) pipeline using **Z
 
 This MLOps experiment targets to build the following pipelines:
 
-- :heavy_check_mark: ML training pipeline 
-- :---: ML deployment pipeline (to-do)
-- :---: ML inference pipeline (to-do)
+- :white_check_mark: ML training pipeline 
+- :white_large_square: ML deployment pipeline (to-do)
+- :white_large_square: ML inference pipeline (to-do)
 
 The ML training pipeline includes the following steps:
 1. **Step 1**: Load data from Postgres database.
