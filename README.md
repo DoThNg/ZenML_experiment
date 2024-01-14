@@ -11,12 +11,12 @@ This MLOps experiment targets to build the following pipelines:
 - :white_large_square: ML inference pipeline (to-do)
 
 The ML training pipeline includes the following steps:
-1. **Step 1**: Load data from Postgres database.
-2. **Step 2**: Split the loaded dataset into training and test.
-3. **Step 3**: Pre-process the datasets, using Pandas library.
-4. **Step 4**: Train the ML model
-5. **Step 5**: Evaluate the ML model
-6. **Step 6**: If the model performance (metrics) meets the certain criteria, promote this model (register the ML model) to 'production' stage for a deployment.
+- **Step 1**: Load data from Postgres database.
+- **Step 2**: Split the loaded dataset into training and test.
+- **Step 3**: Pre-process the datasets, using Pandas library.
+- **Step 4**: Train the ML model
+- **Step 5**: Evaluate the ML model
+- **Step 6**: If the model performance (metrics) meets the certain criteria, promote this model (register the ML model) to 'production' stage for a deployment.
 
 The above steps in the ML pipeline will be developed locally using ZenML - MLOps framework while model is trained using scikit-learn. Additionally, Experiments are tracked and models are registered by Mlflow. Further info on ZenML can be found in the following: https://docs.zenml.io/getting-started/introduction
 
@@ -70,7 +70,7 @@ Tech stack:
 - Store credentials to create a database connection in a `.env` file (Reference: [env_template.env](https://github.com/DoThNg/ZenML_experiment/blob/main/env_template.env)) and save this file in folder where the virtual env is created.
 
 **Step 4:** Set up a MLOps stack used in this experiment
-- In this experiment, the MLOps used for experiment tracking and model registry
+- In this experiment, Mlflow is used for experiment tracking and model registry
 - To register Mlflow to the MLOps stack, run the following:
 
 ```
