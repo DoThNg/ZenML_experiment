@@ -6,9 +6,9 @@ This experiment focuses on developing a Machine Learning (ML) pipeline using **Z
 
 This MLOps experiment targets to build the following pipelines:
 
-- [ x ] ML training pipeline 
-- [  ] ML deployment pipeline (to-do)
-- [  ] ML inference pipeline (to-do)
+- [x] ML training pipeline 
+- [ ] ML deployment pipeline (to-do)
+- [ ] ML inference pipeline (to-do)
 
 The ML training pipeline includes the following steps:
 1. **Step 1**: Load data from Postgres database.
@@ -35,7 +35,7 @@ Tech stack:
 ---
 ### Overview of ML training pipeline in this experiment:
 
-  ![mlops]()
+  ![mlops](https://github.com/DoThNg/ZenML_experiment/blob/main/docs/MLOps.png)
 
 ---
 
