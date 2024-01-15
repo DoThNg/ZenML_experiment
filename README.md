@@ -42,7 +42,7 @@ Tech stack:
 ### Steps to run the ML pipeline:
 **Step 1:** Set up the virtual environment
 
-- Active the virtual environment: `python -m venv {virtualenv name}`
+- Activate the virtual environment: `python -m venv {virtualenv name}`
 - Install dependencies: `pip install -m requirements.txt`
 - The project structure is as follows:
 
